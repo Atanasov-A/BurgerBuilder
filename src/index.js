@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
 const MyApp = (
-  <BrowserRouter>
+  <BrowserRouter basename="/BurgerBuilder">
     <App />
   </BrowserRouter>
 );
